@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+	<entity id="edition-form-title">
+		<locale lang="fr">édition d'une demande de prévisualisation</locale>
+	</entity>
+	<entity id="document-name">
+		<locale lang="fr">demande de prévisualisation</locale>
+	</entity>
+	<entity id="label">
+		<locale lang="fr">libellé</locale>
+	</entity>
+	<entity id="fakeMailReceiver">
+		<locale lang="fr">destinataire des notifications</locale>
+	</entity>
+	<entity id="fakeMailReceiver-help">
+		<locale lang="fr">il s'agit de l'adresse e-mail où seront envoyées les notifications générées par le site de prévisualisation. Si vous laissez ce champ vide, il sera automatiquement rempli avec votre adresse e-mail.</locale>
+	</entity>
+	<entity id="previewDate">
+		<locale lang="fr">date de prévisualisation</locale>
+	</entity>
+	<entity id="previewDate-help">
+		<locale lang="fr">il s'agit de la date que la prévisualisation doit simuler.</locale>
+	</entity>
+	<entity id="startProcessDate">
+		<locale lang="fr">début de la génération</locale>
+	</entity>
+	<entity id="startProcessDate-help">
+		<locale lang="fr">date et heure de début du processus de génération du site de prévisualisation. Si cette date est vide, c'est que le processus n'a pas encore commencé.</locale>
+	</entity>
+	<entity id="endProcessDate">
+		<locale lang="fr">fin de la génération</locale>
+	</entity>
+	<entity id="endProcessDate-help">
+		<locale lang="fr">date et heure de fin du processus de génération du site de prévisualisation. Si cette date est vide, c'est que le processus n'a pas encore terminé.</locale>
+	</entity>
+</localization>

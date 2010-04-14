@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document xmlns="http://www.rbs.fr/schema/change-document/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.rbs.fr/schema/change-document/1.0 http://change.rd.devlinux.france.rbs.fr/static/schema/change-document/1.0.xsd"
+	model-version="1.0"	icon="preferences"
+    publish-on-day-change="false" backoffice-indexable="false">
+	<properties>
+		<add name="label" type="String" default-value="Preferences for referencing module" />
+		<add name="fakeMailReceiver" type="String" min-occurs="1" />
+	</properties>
+</document>

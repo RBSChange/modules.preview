@@ -1,0 +1,12 @@
+treechildren::-moz-tree-image(modules_preview_preferences)
+{
+	list-style-image: url(/icons/small/preview.png) ;
+}
+treechildren::-moz-tree-image(modules_preview_preview)
+{
+	list-style-image: url(/icons/small/preview.png) ;
+}
+treechildren::-moz-tree-image(modules_preview_preview FILED)
+{
+	list-style-image: url(/icons/small/archive.png) ;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document xmlns="http://www.rbs.fr/schema/change-document/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.rbs.fr/schema/change-document/1.0 http://change.rd.devlinux.france.rbs.fr/static/schema/change-document/1.0.xsd"
+	model-version="1.0"	icon="preview" publish-on-day-change="false" backoffice-indexable="false" has-url="false">
+	<properties>
+		<add name="previewDate" type="DateTime" min-occurs="1">
+			<constraints>futureDate:true</constraints>
+		</add>
+		<add name="fakeMailReceiver" type="String">
+			<constraints>email:true</constraints>
+		</add>
+		<add name="startProcessDate" type="DateTime" />
+		<add name="endProcessDate" type="DateTime" />
+	</properties>
+</document>

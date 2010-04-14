@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions extends="generic">
+	<action name="createPreview">
+		<parameter name="listWidget" />
+		<body><![CDATA[this.createDocumentEditor('modules_preview_preview', listWidget.getSelectedItems()[0].id);]]></body>
+	</action>
+	<action name="file">
+		<parameter name="listWidget" />
+		<body><![CDATA[
+			var items = listWidget.getSelectedItems();
+			var lang = this.getContextLang();
+			for (var i = 0; i < items.length; i++)
+			{
+				this.executeJSON("FileJSON", {cmpref: items[i].id, lang: lang});
+			}
+		]]></body>
+	</action>
+	<action name="fileIsActive">
+		<parameter name="itemData"/>
+		<body><![CDATA[
+			return (itemData.status === 'PUBLICATED' || itemData.status === 'DRAFT');
+		]]></body>
+	</action>
+</actions>

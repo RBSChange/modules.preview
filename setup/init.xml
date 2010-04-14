@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/task/persistentdocument/import/task_binding.xml" />
+
+	<systemfolder module="task" relatedmodule="preview">
+		<plannedtask label="Génération des prévisualisation" systemtaskclassname="preview_RunPreviewGenerationTask" />
+	</systemfolder>
+</script>

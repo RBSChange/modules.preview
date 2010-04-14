@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<perspective>
+	<models>
+		<model name="modules_generic/rootfolder">
+			<children>
+				<child model="modules_preview/preview" />
+			</children>
+			<styles properties="previewStatus" />
+			<contextactions>
+				<contextaction name="edit" />
+				<contextaction name="delete" />
+				<contextaction name="createPreview" />
+			</contextactions>
+		</model>
+		<model name="modules_preview/preview">
+			<contextactions>
+				<contextaction name="edit" />
+				<contextaction name="delete" />
+				<contextaction name="file" />
+			</contextactions>
+		</model>
+	</models>
+	<toolbar>
+		<toolbarbutton name="edit" />
+		<toolbarbutton name="delete" />
+		<toolbarbutton name="file" />
+	</toolbar>
+	<actions>
+		<action name="refresh" single="true" icon="refresh" label="&amp;modules.uixul.bo.actions.Refresh;" />
+		<action name="delete" permission="Delete" icon="delete" label="&amp;modules.uixul.bo.actions.Delete;" />
+		<action name="edit" single="true" permission="Load" icon="edit" label="&amp;modules.uixul.bo.actions.Edit;" />
+		<action name="file" permission="File" icon="archive" label="&amp;modules.uixul.bo.actions.File;" />
+		<action name="createPreview" single="true" permission="Insert_preview" icon="add" label="&amp;modules.preview.bo.actions.Create-Preview;" />
+		<action name="openFolder" icon="open-folder" label="&amp;modules.uixul.bo.actions.OpenFolder;" />
+	</actions>
+</perspective>

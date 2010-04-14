@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="edition-form-title">
+    <locale lang="fr">préférences du modules prévisualisation</locale>
+  </entity>
+  <entity id="document-name">
+    <locale lang="fr">preferences</locale>
+  </entity>
+  <entity id="fakeMailReceiver">
+    <locale lang="fr">destinataire des notifications</locale>
+  </entity>
+  <entity id="fakeMailReceiver-help">
+    <locale lang="fr">il s'agit de l'adresse e-mail où seront envoyées les notifications générées par le site de prévisualisation.</locale>
+  </entity>
+</localization>

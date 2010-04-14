@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<entity id="module-name">
+		<locale lang="fr">prévisualisation</locale>
+		<locale lang="en">preview</locale>
+	</entity>
+	<entity id="system-folder-name">
+		<locale lang="fr">prévisualisation</locale>
+		<locale lang="en">preview</locale>
+	</entity>	
+	<entity id="error-only-one-preview">
+		<locale lang="fr">il ne peut y avoir qu'une seule prévisualisation active à la fois. Pour demander une nouvelle prévisualisation, archivez d'abord la prévisualisation courante.</locale>
+	</entity>
+	<entity id="preview-label">
+		<locale lang="fr">prévisualisation demandée par {username}</locale>
+	</entity>
+	<entity id="date-future-message">
+		<locale lang="fr">la prévisualisation doit se faire sur une date future.</locale>
+	</entity>
+</localization>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<panel>
+	<section name="properties" linkedtab="properties" labeli18n="modules.uixul.bo.doceditor.section.Properties" image="{HttpHost}/icons/small/edit-properties.png">
+		<property name="author" labeli18n="modules.uixul.bo.doceditor.property.Author" />
+		<property name="creationdate" labeli18n="modules.uixul.bo.doceditor.property.Creationdate" />
+		<property name="previewDate" labeli18n="modules.preview.document.preview.PreviewDate" />
+		<property name="fakeMailReceiver" labeli18n="modules.preview.document.preview.FakeMailReceiver" />
+		<property name="startProcessDate" labeli18n="modules.preview.document.preview.StartProcessDate" />
+		<property name="endProcessDate" labeli18n="modules.preview.document.preview.EndProcessDate" />
+	</section>
+	<section name="publication" linkedtab="publication" labeli18n="modules.uixul.bo.doceditor.section.Status" image="{HttpHost}/icons/small/status.png">
+		<property name="status" labeli18n="modules.uixul.bo.doceditor.property.Status" />
+		<property name="workflow" labeli18n="modules.uixul.bo.doceditor.property.Workflow" />
+	</section>
+</panel>
