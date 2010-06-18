@@ -4,19 +4,19 @@
 	xsi:schemaLocation="http://www.rbs.fr/schema/change-component/1.0 http://change.rd.devlinux.france.rbs.fr/static/schema/change-component/1.0.xsd">
 	<name>preview</name>
 	<type>change-module</type>
-	<version>3.0.1</version>
+	<version>3.0.3</version>
 	<description>Preview module</description>
 	<dependencies>
 		<dependency>
 			<name>change-lib/framework</name>
 			<versions>
-				<version>3.0.1</version>
+				<version>3.0.3</version>
 			</versions>
 		</dependency>
 		<dependency>
 			<name>change-module/users</name>
 			<versions>
-				<version>3.0.1</version>
+				<version>3.0.3</version>
 			</versions>
 		</dependency>
 	</dependencies>
